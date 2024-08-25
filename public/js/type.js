@@ -1,5 +1,5 @@
 var typed = new Typed('#development', {
-    strings: ['Web Development', 'App Development', 'Machine Learning', 'Computer Vision'],
+    strings: ['Machine Learning', 'Computer Vision', 'Web Development', 'App Development'],
     typeSpeed: 50,
     backSpeed:50, 
     smartBackspace: true,

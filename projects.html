@@ -5,26 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="public/css/styles.css">
 </head>
 <body class = "">
     <nav class="py-3 bg-[#222222] fixed top-0 z-10 w-full flex">
-        <a class="pl-10 text-3xl text-white font-mono">Elliot</a>
+        <a class="pl-10 text-3xl text-white font-mono" href="/index.html">Elliot</a>
         <div class = "mr-20 ml-auto space-x-10">
             <a class="pl-10 text-2xl text-white font-mono ">Experiences</a>
             <a class="pl-10 text-2xl text-white font-mono" href="/projects.html">Projects</a>
         </div>
 
     </nav>
-    <div class = "justify-center items-center h-screen mt-40">
-        <div class = "grid grid-cols-2 gap-32 px-12">
+    <div class = "justify-center items-center h-screen mt-40 pb-20">
+        <div class = "grid grid-cols-2 gap-24 px-12">
 
-            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                <h3 class= 'text-white' >Bitcoin Price Prediciton</h3>
+            <div class="bg-[#222222] p-6 rounded-lg shadow-lg">
+                <h3 class = 'text-white mb-5 text-2xl font-bold'>UIPath Inventory Manager</h3>
+                <div class="aspect-w-16 aspect-h-9 mb-5">
+                    <iframe height = "320" width="720" src="https://www.youtube.com/embed/RZFh-I3uaHY" class ="mx-auto border rounded-lg" frameborder="0" allowfullscreen></iframe>     
+                </div>
+                <p class="text-white mb-5">
+                    This robot is intended to help clinics update medicine stock and remind them to order more when stock is low.
+                    The robot checks delivery order emails, and saves the PDF of the delivery order. The text from the delivery order is extracted, and used to update an SQL database. 
+                </p>
+                <div>
+                    <span class="text-white bg-[#fa4516] px-5 py-1 rounded-2xl text-center mr-2">UIPath</span>
+                </div>
             </div>
-            <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                <div class="aspect-w-16 aspect-h-9">
-                    <iframe height = "320" width="720" src="https://www.youtube.com/embed/G4czh2Sogo4" frameborder="0" allowfullscreen></iframe>                  </div>
-                    <h3 class = 'text-white'>Bitcoin Price Prediciton</h3>
+            <div class="bg-[#222222] p-6 rounded-lg shadow-lg">
+                <h3 class = 'text-white mb-5 text-2xl font-bold'>Recycling mobile app</h3>
+                <div class="aspect-w-16 aspect-h-9 mb-5">
+                    <iframe height = "320" width="720" src="https://www.youtube.com/embed/G4czh2Sogo4" class ="mx-auto border rounded-lg" frameborder="0" allowfullscreen></iframe>     
+                </div>
+                <p class="text-white mb-5">
+                    This app was created for a project which involved creating a mobile app which promoted sustainability. 
+                    It was built using flutter, and integrates Firebase for database, storage and authentication services.
+                    The app has a few key features: Recycling guides for different items, a map of E-waste bins in Singapore, 
+                    daily updating tasks which users can complete to earn points and vouchers which can be redeemed from those points.
+                </p>
+                <div>
+                    <span class="text-white bg-[#2bb7f5] px-5 py-1 rounded-2xl text-center mr-2">Dart</span>
+                    <span class="text-white bg-[#03589b] px-5 py-1 rounded-2xl text-center mr-2">Flutter</span>
+                    <span class=" text- bg-[#ffcb2a] px-5 py-1 rounded-2xl text-center mr-2">Firebase</span>
+                </div>
+            </div>
+            <div class="bg-[#222222] p-6 rounded-lg shadow-lg">
+                <h3 class = 'text-white mb-5 text-2xl font-bold'> RPG Game</h3>
+                <div class="aspect-w-16 aspect-h-9 mb-5">
+                    <iframe height = "320" width="720" src="https://www.youtube.com/embed/RZFh-I3uaHY" class ="mx-auto border rounded-lg" frameborder="0" allowfullscreen></iframe>     
+                </div>
+                <p class="text-white mb-5">
+                    This is a turned based RPG game coded in Python, and using the Tkinter library to create an interactive GUI
+                    The game consists of 3 playable character classes, and 3 enemy classes.
+                    The different playable classes have unique stats, abilities and passives.
+                </p>
+                <div class = 'mb-5'>
+                    <span class="text-white bg-[#376f9e] px-5 py-1 rounded-2xl text-center mr-2">Python</span>
+                </div>
+                <a href="https://github.com/LCYEW/COMTproject" target = "_blank">
+                    <button type="button" class="border text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-2xl text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 me-2 mb-2">
+                    <svg class="w-4 h-4 me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clip-rule="evenodd"/>
+                    </svg>
+                    Github Repo
+                    </button>
+                </a>
+            </div>
+            <div class="bg-[#222222] p-6 rounded-lg shadow-lg">
+                <h3 class = 'text-white mb-5 text-2xl font-bold'>E-commerce Product Management Page</h3>
+                <div class="aspect-w-16 aspect-h-9 mb-5">
+                    <iframe height = "320" width="720" src="https://www.youtube.com/embed/RZFh-I3uaHY" class ="mx-auto border rounded-lg" frameborder="0" allowfullscreen></iframe>     
+                </div>
+                <p class="text-white mb-5">
+                    This was developed as a product management page for admins of an e-commerce site. Admins are able to see the available products, as well as creating new, updating and deleting them.
+                </p>
+                <div>
+                    <span class="text-white bg-[#e44d26] px-5 py-1 rounded-2xl text-center mr-2">HTML</span>
+                    <span class="text-white bg-[#264de4] px-5 py-1 rounded-2xl text-center mr-2">CSS</span>
+                    <span class="bg-[#f7e018] px-5 py-1 rounded-2xl text-center mr-2">JavaScript</span>
+                    <span class="text-white bg-[#3e863d] px-5 py-1 rounded-2xl text-center mr-2">NodeJS</span>
+                    <span class="text-white bg-[#3e863d] px-5 py-1 rounded-2xl text-center mr-2">Express</span>
+                </div>
             </div>
         </div>
     </div>
